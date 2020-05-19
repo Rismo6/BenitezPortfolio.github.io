@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    width:100%;
+    height:60px;
+    background:linear-gradient(to top left,#ffccff 0%, #ffff99 60%);
+    border:1px solid red;
+}
+.mn
+{
+    float:left;
+    
+}
+.mn li
+{
+   
+    float:left;
+    list-style:none;
+    position:relative;
+}
+
+.mn li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 24px 24px;
+    font-family:"Roboto", fantasy;
+    font-size: 15xp; 
+    list-style: none;
+    position: relative;
+    z-index: 10;
+}
+
+.mn li ul
+{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding:10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.mn li:hover ul
+{
+   display: block;
+   color: #f3f3f3;
+}
+
+.mn li ul li 
+{
+  width: 160px;
+    
+}
+
+.mn li ul li a
+{
+   color: black;
+   padding: 8px 14px;
+}
+
+body
+{
+    font-family: sans-serif;
+background: black;
+}
+
+.Damn img
+{
+    margin-left: 400px;
+    width:500px;
+    margin-top:300px;
+}
+
+
+
+h1
+{
+    color: white;
+    text-transform:none;
+    font-size:20px;
+    margin-left: 100px;
+	margin-right: 100px;
+    margin-top: 20px; 
+	
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+p
+{
+     color:white;
+    text-transform:none;
+    font-size:20px;
+    margin-left: 100px;
+	margin-right: 100px;
+    margin-top: 100px; 
+	font-family: 'Raleway', sans-serif;
+}
+.trent img
+{
+    margin-left: 400px;
+    width:440px;
+    margin-top:200px;
+}
+.Darbs img
+{
+	opacity: 1;
+	transition: .5 ease;
+	backface-visibility: hidden;
+    margin-left: 530px;
+    width:300px;
+    margin-top:200px;
+	
+}
+
+.Mac img
+{
+	
+    margin-left: 450px;
+    width:430px;
+    margin-top:200px;
+}
+
+.Album img
+{
+	
+    margin-left: 450px;
+    width:400px;
+    margin-top:200px;
+}

@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width:100%;
+    height:60px;
+    background:linear-gradient(to top left,#ffccff 0%, #ffff99 60%);
+    border:1px solid red;
+}
+.mn
+{
+    float:left;
+    
+}
+.mn li
+{
+    float:left;
+    list-style:none;
+    position:relative;
+}
+
+.mn li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 24px 24px;
+    font-family:"Roboto", fantasy;
+    font-size: 15xp; 
+    list-style: none;
+    position: relative;
+    z-index: 10;
+}
+
+.mn li ul
+{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding:10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.mn li:hover ul
+{
+   display: block;
+   color: #f3f3f3;
+}
+
+.mn li ul li 
+{
+  width: 160px;
+    
+}
+
+.mn li ul li a
+{
+    color: black;
+   padding: 8px 14px;
+}
+
+
+body
+{
+    font-family: sans-serif;
+
+}
+
+.row
+{
+    max-width:; 
+}
+.hero
+{
+    position: absolute;
+    width: 1400px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1
+{
+    color:white;
+    text-transform: none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 80px;
+	font-family: 'Raleway', sans-serif;
+}
+/* Style the video: 100% width and height to cover the entire window */
+iframe {
+margin-top: 100px;
+margin-left: 300px;
+}
+
+h2
+{
+    color:white;
+    text-transform:none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+	font-family: 'Raleway', sans-serif;
+}
+
+a h2
+{
+    color:white;
+    text-transform:none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-left: 100px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.logo img
+{
+    
+  margin-top:200px;
+  width:10% ;
+margin-left: 600px;
+
+}
+
+h3
+{
+    color:white;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+	font-family: 'Raleway', sans-serif;
+}
+

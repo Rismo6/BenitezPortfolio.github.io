@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Spiral.png); 
+     height: 100vh;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+background-size: 1000px;
+}
+nav{
+    width:100%;
+    height:60px;
+    background:linear-gradient(to top left,#ffccff 0%, #ffff99 60%);
+    border:1px solid red;
+}
+.mn
+{
+    float:left;
+    
+}
+.mn li
+{
+    float:left;
+    list-style:none;
+    position:relative;
+}
+
+.mn li a
+{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 24px 24px;
+    font-family:"Roboto", fantasy;
+    font-size: 15xp; 
+    list-style: none;
+    position: relative;
+    z-index: 10;
+}
+
+.mn li ul
+{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding:10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.mn li:hover ul
+{
+   display: block;
+   color: #f3f3f3;
+}
+
+.mn li ul li 
+{
+  width: 160px;
+    
+}
+
+.mn li ul li a
+{
+    color: black;
+   padding: 8px 14px;
+}
+
+body
+{
+    
+    font-family: sans-serif;
+background-color:#036547;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1400px;
+    margin-left: 0px;
+    margin-top: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#myVide {
+margin-left:20px;
+    width:20%;
+    margin-top: 100px;
+}
+h2
+{
+    color:white;
+    text-transform: none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 80px;
+	font-family: 'Raleway', sans-serif;
+}

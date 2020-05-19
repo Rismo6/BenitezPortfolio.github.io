@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+nav{
+    width:100%;
+    height:60px;
+    background:linear-gradient(to top left,#ffccff 0%, #ffff99 60%);
+    border:1px solid red;
+}
+.mn
+{
+    float:left;
+    
+}
+.mn li
+{
+    float:left;
+    list-style:none;
+    
+    position:relative;
+}
+
+.mn li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 24px 24px;
+    font-family:"Roboto", fantasy;
+    font-size: 15xp; 
+    list-style: none;
+    position: relative;
+    z-index: 10;
+}
+
+.mn li ul
+{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    padding:10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.mn li:hover ul
+{
+   display: block;
+   color: #f3f3f3;
+}
+
+.mn li ul li 
+{
+  width: 160px;
+    
+}
+
+.mn li ul li a
+{
+color: black;
+   padding: 10px 14px;
+}
+
+
+body
+{
+    font-family: sans-serif;
+ background-color: #036547;
+    line-height: 1;
+}
+
+
+.Welcome
+{
+	color: white;
+    position: absolute;
+    width: 1400px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1
+{
+    color:white;
+    text-transform: capitalize;
+    font-size; 1000px;
+    text-align: center;
+    margin-right:200px;
+    margin-top: 400px;
+}
+
+.logo img
+{
+    
+  margin-top:700px;
+  width:150px ;
+
+}
+
+h2
+{
+  color:black;
+    text-transform: capitalize;
+    font-size:15px;
+    margin-left: 350px;
+    margin-top: 4px;   
+    font-family: 'Press Start 2P', cursive;
+}
+
+.Spiral img
+{
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top:150px;
+  width:437px ;
+  text-decoration: none;
+
+}
+h3
+{
+ color:white;
+    text-transform:none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align:left;
+    margin-top: -250px;
+margin-right: 50px;
+margin-left:700px;
+   
+}
+
+.Work video{
+    margin-top: 150px;
+    margin-left: 800px;
+    width: 430px;
+}
+.Sick img
+{
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 430px;
+}
+
+
+
+
+h4
+{
+ color:white;
+    text-transform: none;
+     font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align:left;
+    margin-top: -300px;
+margin-right: 50px;
+margin-left:700px;   
+}
+
+.Dance video
+{
+     margin-top: 250px;
+    margin-left: 800px;
+    width: 30%;
+}
+
+h6
+{
+  color:white;
+    text-transform: none;
+    font-size: 15px;
+    text-align: left;
+    margin-top: -200px; 
+    margin-left: 150px; 
+    margin-right: 600px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.shirts img
+{
+    width:400px;
+    margin-left: 430px;
+    margin-top: 450px;
+}
+
+.frame img
+{
+    width:760px;
+    margin-top:-700px;
+    margin-left: 240px;
+    
+}
+
+h5
+{
+    color:black;
+    text-transform:none;
+font-size:23px;
+    margin-top:50px;
+    margin-left:290px;
+    margin-right:320px;
+   font-family: 'Raleway', sans-serif;
+}
+.BrandDesign a h5
+{
+color:black;
+ text-transform:none;
+    text-decoration: none;
+font-size:30px;
+margin-top:20px;
+font-family: 'Raleway', sans-serif;
+}
